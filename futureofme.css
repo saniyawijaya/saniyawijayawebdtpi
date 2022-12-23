@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif
+}
+
+.body {
+    height: 150vh;
+}
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(ldr_img_folder/futureofmebg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+    .li-navbar {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-size: 18px;
+    }
+    
+    .li-navbar:hover {
+        background-color: #a97a59;
+        transition: .8s ease-in-out;
+        transition-delay: .3s;
+        border-radius: 80px;
+    }
+
+nav {
+    padding: 30px 3%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logoldr {
+    width: 125px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.menu-icon {
+    width: 35px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.social-media a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+.social-media {
+    transform: rotate(90deg) translate(-100%);
+    transform-origin: left;
+    position: absolute;
+    bottom: 0;
+    left: 5%;    
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9%;
+    width: 2px;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.content {
+    width: 75%;
+    margin: auto;
+    display: flow-root;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-ldr {
+    margin-bottom: auto;
+    margin-top: 26px;
+    width: 150px;
+}
+
+.description {
+    font-size: medium;
+}
+.paragraph-2 {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.paragraph-3 {
+font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+

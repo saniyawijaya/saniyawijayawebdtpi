@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif
+}
+
+.body {
+    height: 150vh;
+}
+
+.header {
+    width: 100%;
+    min-height: 280vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(ldr_img_folder/abttldrbg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+    .li-navbar {
+    list-style-type: none;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    font-size: 18px;
+    }
+    
+    .li-navbar:hover {
+        background-color: #a97a59;
+        transition: .8s ease-in-out;
+        transition-delay: .3s;
+        border-radius: 80px;
+    }
+
+nav {
+    padding: 30px 3%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.logoldr {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.menu-icon {
+    width: 35px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.social-media a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 25px;
+}
+
+.social-media {
+    transform: rotate(90deg) translate(-100%);
+    transform-origin: left;
+    position: absolute;
+    bottom: 0;
+    left: 5%;    
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 9%;
+    width: 2px;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.heading {
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px; 
+    margin-bottom: 20px;
+}
+.content {
+    width: 75%;
+    margin: auto;
+    display: flow-root;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: auto;
+}
+
+.paragraph {
+font-size: 20px;
+text-align: justify;
+margin-top: auto;
+margin-left: 100px;
+}
+
+.img-imagesldr1{
+    width: 350px;
+    margin-bottom: auto;
+    margin-top: 26px;
+    margin-left: 30px;
+}
+
+.heading-2 {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px; 
+    margin-bottom: 20px;
+}
+
+.content-2 {
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: auto;
+}
+
+.paragraph-2 {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.img-style {
+    width: 500px;
+    margin-bottom: auto;
+    margin-top: 26px;
+    margin-left: 30px;
+}
+
+.heading-3 {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 50px; 
+}
+    
+.content-3 {
+    width: 75%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    margin-top: auto;
+}
+    
+.paragraph-3 {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.img-teenageldr {
+    width: 220px;
+    margin-bottom: auto;
+    margin-top: 26px;
+    margin-left: 30px;
+}
+
+.description {
+    font-size: medium;
+}
